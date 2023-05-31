@@ -100,7 +100,7 @@ a {
     justify-content: center; 
     background-repeat: no-repeat;
     height: 600px;
-    background-size: contain;
+    background-size: 100%;
 }
 
 
