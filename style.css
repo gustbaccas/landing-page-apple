@@ -3,12 +3,15 @@
     margin: 0;
 }
 
+html, body {
+    overflow: hidden;
+}
+
 body {
     background-color: black;
     color: white;
     width: 100vw;
     height: 100vh;
-    overflow-y: hidden;
     font-size: 100%;
 }
 
