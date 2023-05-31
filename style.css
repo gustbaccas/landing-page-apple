@@ -106,5 +106,38 @@ a:hover {
     background-size: 100%;
 }
 
+/* Estilos para celular */
+@media only screen and (max-width: 600px) {
+    .menu-item {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .titulo-principal {
+      font-size: 24px;
+      padding-top: 60px;
+    }
+    
+    .subtitulo {
+      font-size: 14px;
+      padding: 10px;
+    }
+    
+    .btn {
+      gap: 30px;
+    }
+    
+    .btn-buy,
+    .btn-learn-more {
+      width: 120px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+    }
+    
+    .principal-img {
+      height: 300px;
+    }
+  }
 
     
