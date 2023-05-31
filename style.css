@@ -96,7 +96,7 @@ a {
 }
 
 .principal-img {
-    background-image: url(imagens/macbook.png);
+    background-image: url(macbook.png);
     justify-content: center; 
     background-repeat: no-repeat;
     height: 600px;
