@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    font-size: 100%;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+
+}
+.titulo-principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+    
+}
+
+.btn-buy {
+    display: block;
+    background-color: #3946AF;
+    color: white;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 25px;
+    line-height: 50px;
+    font-size: 18px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    transform: scale(1.1); 
+}
+
+.btn-learn-more {
+    display: block;
+    background-color: black;
+    color: #3946AF;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #3946AF;
+    border-radius: 25px;
+    line-height: 50px;
+    font-size: 18px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}    
+
+.btn-learn-more:hover {
+    transform: scale(1.1);
+}
+
+.principal-img {
+    background-image: url(imagens/macbook.png);
+    justify-content: center; 
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+}
+
+
+    
