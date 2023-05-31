@@ -23,6 +23,10 @@ a {
     color: rgba(255, 255, 255, 0.719);
 }
 
+a:hover {
+    color: white;
+}
+
 .menu-item {
     display: flex;
     flex-direction: row;
